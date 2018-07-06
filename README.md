@@ -3,7 +3,7 @@
 Implementation of simple web crawler that locates a user-selected element on a web site with frequently changing information.
 
 # How to run
-java -cp ae-backend-xml-java-snippets-0.0.1.jar <input_origin_file_path> <input_other_sample_file_path> [<target_element_id>]
+java -cp ae-backend-xml-java-web-crawler.jar com.agileengine.WebCrawlerApplication <input_origin_file_path> <input_other_sample_file_path> [<target_element_id>]
 
 # Implementation details:
 For each xml element(tag) in the input file algorithm calculating solve functions based on element attributes. Also takes into account XPath of element. Element with the largest solve function value will be result.
